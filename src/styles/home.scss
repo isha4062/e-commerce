@@ -1,0 +1,86 @@
+.category-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  box-shadow: 2px 2px 4px grey;
+  margin: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+  .link {
+    text-decoration: none;
+  }
+}
+.category:hover {
+  box-shadow: 4px 4px 6px black;
+}
+.text-grey {
+  color: grey;
+  font-size: 30px;
+}
+.text-black {
+  color: black;
+  font-size: 14px;
+}
+.cart {
+  display: flex;
+  justify-content: right;
+  width: 90%;
+  margin-top: 40px;
+  .badge {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+  }
+}
+.filter {
+  margin-top: 100px;
+  border-right: 2px solid grey;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+.card {
+  box-shadow: 2px 2px 4px grey;
+  margin: 10px;
+  padding: 20px;
+  .text-green {
+    color: green;
+  }
+  .text-red {
+    color: red;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .currency {
+    color: grey;
+    font-weight: bold;
+  }
+}
+.table {
+  margin: 70px;
+  .no-item{
+    text-align: center;
+  }
+}
