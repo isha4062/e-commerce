@@ -51,8 +51,25 @@
   height: 400px;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
+  h1{
+    margin-bottom: 30px;
+  }
+  h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .radio{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    label{
+      width: 140px;
+    }
+    input:hover{
+      cursor: pointer;
+    }
+  }
 }
 .products {
   display: grid;
